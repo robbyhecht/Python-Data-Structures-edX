@@ -21,4 +21,4 @@ for line in content:
         value = float(frag)
         valSum += value
 avg = valSum / count
-print(avg)
+print('Average spam confidence: ' + str(avg))
